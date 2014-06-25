@@ -47,11 +47,7 @@
 #include "u_serial.c"
 #include "f_acm.c"
 #include "f_adb.c"
-#ifdef CONFIG_USB_MTP_SAMSUNG
-#include "f_mtp_samsung.c"
-#else
 #include "f_mtp.c"
-#endif
 #include "f_accessory.c"
 #define USB_ETH_RNDIS y
 #include "f_rndis.c"
